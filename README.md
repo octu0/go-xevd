@@ -50,8 +50,8 @@ func main() {
 		// => Frame:IDR Slice:I color:YCbCr420
 
 		if err := saveImage(buf.Img); err != nil {
-      panic(err)
-    }
+			panic(err)
+		}
 	}); err != nil {
 		panic(err)
 	}
